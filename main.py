@@ -13,10 +13,10 @@ driver.get('https://www.linkedin.com/jobs/search/?currentJobId=3783187418&distan
 
 email = "pritishmajumdar066@gmail.com"
 passw = "9732sanu"
-
+sleep(2)
 signin_btn = driver.find_element(By.XPATH, value='/html/body/div[1]/header/nav/div/a[2]')
 signin_btn.click()
-sleep(5)
+sleep(2)
 
 
 email_field = driver.find_element(By.XPATH,value='//*[@id="username"]')
@@ -31,6 +31,4 @@ fin_sign.click()
 
 save_job = driver.find_element(By.XPATH,value='//*[@id="main"]/div/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[4]/div/button')
 save_job.click()
-
-sleep(2)
 
