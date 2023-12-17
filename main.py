@@ -27,3 +27,10 @@ pass_field.send_keys(passw)
 
 fin_sign = driver.find_element(By.XPATH,value='//*[@id="organic-div"]/form/div[3]/button')
 fin_sign.click()
+
+
+save_job = driver.find_element(By.XPATH,value='//*[@id="main"]/div/div[2]/div/div[2]/div/div[1]/div/div[1]/div/div[1]/div[1]/div[4]/div/button')
+save_job.click()
+
+sleep(2)
+
